@@ -1,0 +1,14 @@
+function getLife(age) {
+    
+    const myAge = 90 - age;
+    const seconds = myAge * 31536000;
+    const minutes =  myAge * 525600;
+    const hours = myAge * 8760;
+    const days = myAge * 365;
+    const weeks = myAge * 52;
+
+    console.log("You have " + seconds + " seconds," + minutes + " minutes, " + hours  + " hours, " + days + " days,  " + weeks + " weeks until you're 90");
+
+}
+
+getLife(29);
